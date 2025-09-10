@@ -1,4 +1,4 @@
-# # Working with Numbers
+# Working with Numbers
 
 ## Exercises
 
@@ -41,9 +41,9 @@ public class Volume {
 }
 ```
 
-1. Modify the program to use the **Math.pow()** method to square the radius instead of using multiplication.
-2. Modify the program to calculate the volume of a cylinder: $V = \pi r^2 h$
-3. Format the output the produce an answers with 1 decimal place.
+1. Modify the program to calculate the volume of a cylinder: $V = \pi r^2 h$
+2. Format the output the produce an answers with 1 decimal place.
+3. Modify the program to use the **Math.pow()** method to square the radius instead of using multiplication.
 
 ## 01-2: Hypotenuse of a Right-Angled Triangle
 
