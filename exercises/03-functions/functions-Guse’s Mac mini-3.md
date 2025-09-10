@@ -8,7 +8,7 @@ In the **src** folder create a **Java class** file called *Points.java* with the
 
 ## 02-0: Slope
 
-Create a **slope()** function and implement / use it in the **main()** function as shown below.  You will need to edi
+Create a **slope()** function and implement / use it in the **main()** function as shown below.  You will need to edit the return value shown.
 
 ```java
 public class Point {  
@@ -24,7 +24,7 @@ public class Point {
 
 ## 02-1: Distance
 
-Create a new file called *distance.rs* with the following source code
+Create a **dis()** function and implement / use it in the **main()** function as shown below.  You will need to edit the return value shown.
 
 ```rust
 fn main(){

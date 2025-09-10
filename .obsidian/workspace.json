@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercises/01-working-with-numbers/working-with-numbers.md",
+                "file": "exercises/03-functions/functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "working-with-numbers"
+              "title": "functions"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exercises/01-working-with-numbers/working-with-numbers.md",
+                "file": "exercises/03-functions/functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for working-with-numbers"
+              "title": "Backlinks for functions"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exercises/01-working-with-numbers/working-with-numbers.md",
+                "file": "exercises/03-functions/functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from working-with-numbers"
+              "title": "Outgoing links from functions"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "exercises/01-working-with-numbers/working-with-numbers.md",
+                "file": "exercises/03-functions/functions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of working-with-numbers"
+              "title": "Outline of functions"
             }
           }
         ]
@@ -183,11 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24ee3dc731fdca93",
+  "active": "344f611b1de9fbc6",
   "lastOpenFiles": [
-    "exercises/02-functions/functions.md",
+    "exercises/02-functions/functions-Guse’s Mac mini-2.md",
+    "exercises/03-functions/functions.md",
+    "exercises/02-functions/functions-Guse’s Mac mini.md",
+    "README.md",
     "exercises/01-working-with-numbers/working-with-numbers.md",
-    "exercises/02-functions",
+    "exercises/03-functions",
     "exercises/01-working-with-numbers",
     "exercises"
   ]
