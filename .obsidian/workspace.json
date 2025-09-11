@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "functions"
             }
+          },
+          {
+            "id": "5a267b344cf2ef5c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exercises/02-branches-and-loops/branches-and-loops.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "branches-and-loops"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exercises/03-functions/functions.md",
+                "file": "exercises/02-branches-and-loops/branches-and-loops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for functions"
+              "title": "Backlinks for branches-and-loops"
             }
           },
           {
@@ -128,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exercises/03-functions/functions.md",
+                "file": "exercises/02-branches-and-loops/branches-and-loops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from functions"
+              "title": "Outgoing links from branches-and-loops"
             }
           },
           {
@@ -157,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "exercises/03-functions/functions.md",
+                "file": "exercises/02-branches-and-loops/branches-and-loops.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of functions"
+              "title": "Outline of branches-and-loops"
             }
           }
         ]
@@ -183,10 +197,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "24ee3dc731fdca93",
+  "active": "344f611b1de9fbc6",
   "lastOpenFiles": [
-    "exercises/03-functions/functions-Guse’s Mac mini-5.md",
     "exercises/03-functions/functions.md",
+    "exercises/02-branches-and-loops/branches-and-loops.md",
+    "exercises/02-branches-and-loops",
+    "exercises/03-functions/functions-Guse’s Mac mini-5.md",
     "exercises/03-functions/functions-Guse’s Mac mini-4.md",
     "exercises/03-functions/functions-Guse’s Mac mini-3.md",
     "exercises/02-functions/functions-Guse’s Mac mini-2.md",
