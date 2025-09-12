@@ -16,7 +16,8 @@ public class OneOdd {
         int b = 15;  
   
         // Is at least one value even?  
-        // Note != is the NOT EQUAL TO operator        if (a % 2 == 0 || b % 2 == 0) {  
+        // Note != is the NOT EQUAL TO operator        
+        if (a % 2 == 0 || b % 2 == 0) {  
             System.out.println("YES");  
         } else {  
             System.out.println("NO");  
