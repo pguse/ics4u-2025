@@ -1,4 +1,4 @@
-# Functions
+# Methods
 
 ## Exercises
 
@@ -8,7 +8,7 @@ In the **src** folder create a **Java class** file called *Point.java* with the 
 
 ## 02-0: Slope
 
-Create a **slope()** function and implement / use it in the **main()** function as shown below.  The **slope()** function takes the **x and y values** of **two points** as **integer type *parameters***. You will need to edit the return value shown.
+Create a **slope()** method and implement / use it in the **main()** method as shown below.  The **slope()** method takes the **x and y values** of **two points** as **integer type *parameters***. You will need to edit the return value shown.
 
 ```java
 public class Point {  
@@ -23,11 +23,11 @@ public class Point {
 }
 ```
 
-Notice that the **return type** of the **slope()** function **double**  is indicated in front of the function name.  This explains the keyword **void** that is using in the **main()** method, since the **main()** method does not return a value.
+Notice that the **return type** of the **slope()** method **double**  is indicated in front of the method name.  This explains the keyword **void** that is using in the **main()** method, since the **main()** method does not return a value.
 
 ## 02-1: Distance
 
-Create a **distance()** function and implement / use it in the **main()** function as shown below.  The **distance()** function takes the **x and y values** of **two points** as **integer type *parameters***.  You will need to edit the return value shown.
+Create a **distance()** method and implement / use it in the **main()** method as shown below.  The **distance()** method takes the **x and y values** of **two points** as **integer type *parameters***.  You will need to edit the return value shown.
 
 ```java
 public class Point {  
@@ -42,7 +42,7 @@ public class Point {
 }
 ```
 
-Again, notice the return type of the **distance()** function is **double**.
+Again, notice the return type of the **distance()** method is **double**.
 
 ___
 
@@ -52,7 +52,7 @@ In the **src** folder create a **Java class** file called *RightTriangle.java* w
 
 ## 02-2: Triangle Area
 
-Create an **area()** function and implement / use it in the **main()** function as shown below.  The **area()** function takes the **two shorter sides** of a right-angled triangle as **double type *parameters***. You will need to edit the return value shown.
+Create an **area()** method and implement / use it in the **main()** method as shown below.  The **area()** method takes the **two shorter sides** of a right-angled triangle as **double type *parameters***. You will need to edit the return value shown.
 
 ```java
 public class RightTriangle {  
@@ -68,7 +68,7 @@ public class RightTriangle {
 ```
 ## 02-3: Hypotenuse
 
-Create a **hypotenuse()** function and implement / use it in the **main()** function as shown below.  The **hypotenuse()** function takes the **two shorter sides** of a right-angled triangle as **double type *parameters***. You will need to edit the return value shown.
+Create a **hypotenuse()** method and implement / use it in the **main()** method as shown below.  The **hypotenuse()** method takes the **two shorter sides** of a right-angled triangle as **double type *parameters***. You will need to edit the return value shown.
 ```java
 public class RightTriangle {  
     public static void main(String[] args) {  
@@ -90,7 +90,7 @@ In **IntelliJ IDEA**, create a **New Project** called **Number**.
 In the **src** folder create a **Java class** file called *Number.java* with the following source code.
 ## 02-4: Even
 
-Create an **isEven()** function and implement / use it in the **main()** function as shown below.  The **isEven()** function takes a single **integer type *parameter***. You will need to edit the return value shown.
+Create an **isEven()** emthod and implement / use it in the **main()** method as shown below.  The **isEven()** method takes a single **integer type *parameter***. You will need to edit the return value shown.
 ```java
 public class Number {  
     public static void main(String[] args) {  
@@ -102,11 +102,11 @@ public class Number {
     }  
 }
 ```
-Notice that the **return type** of the **isEven()** function is **boolean**.
+Notice that the **return type** of the **isEven()** method is **boolean**.
 
 ## 02-5: Prime
 
-Create a **isPrime()** function and implement / use it in the **main()** function as shown below.  The **isPrime()** function takes a single **integer type *parameter***. You will need to edit the return value shown.  A **prime number** is defined as a **positive integer** greater than 1 that has no positive integer divisors other than 1 and themselves.
+Create a **isPrime()** method and implement / use it in the **main()** method as shown below.  The **isPrime()** method takes a single **integer type *parameter***. You will need to edit the return value shown.  A **prime number** is defined as a **positive integer** greater than 1 that has no positive integer divisors other than 1 and themselves.
 
 ```java
 public class Number {  
@@ -122,7 +122,7 @@ public class Number {
 
 ## 02-6: Greatest Common Divisor
 
-Create a **gcd()** function representing the **greatest common divisor** of the positive integers **m** and **n**, assuming **m > n**, and implement / use it in the **main()** function as shown below. You will need to edit the return value shown.
+Create a **gcd()** method representing the **greatest common divisor** of the positive integers **m** and **n**, assuming **m > n**, and implement / use it in the **main()** method as shown below. You will need to edit the return value shown.
 
 ```java
 public class Number {  

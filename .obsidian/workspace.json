@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercises/02-branches-and-loops/branches-and-loops.md",
+                "file": "exercises/03-methods/methods.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "branches-and-loops"
+              "title": "methods"
             }
           }
         ],
@@ -200,8 +200,8 @@
   },
   "active": "344f611b1de9fbc6",
   "lastOpenFiles": [
-    "exercises/03-functions/functions.md",
     "exercises/02-branches-and-loops/branches-and-loops.md",
+    "exercises/03-methods/methods.md",
     "exercises/02-branches-and-loops",
     "exercises/03-functions/functions-Guse’s Mac mini-5.md",
     "exercises/03-functions/functions-Guse’s Mac mini-4.md",
@@ -210,7 +210,7 @@
     "exercises/02-functions/functions-Guse’s Mac mini.md",
     "README.md",
     "exercises/01-working-with-numbers/working-with-numbers.md",
-    "exercises/03-functions",
+    "exercises/03-methods",
     "exercises/01-working-with-numbers",
     "exercises"
   ]
