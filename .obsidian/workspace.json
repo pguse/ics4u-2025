@@ -13,44 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercises/01-working-with-numbers/working-with-numbers.md",
+                "file": "exercises/guessing-game.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "working-with-numbers"
+              "title": "guessing-game"
             }
           },
           {
-            "id": "24ee3dc731fdca93",
+            "id": "75b8dc8eac324c9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercises/03-functions/functions.md",
+                "file": "exercises/guessing-game.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "functions"
-            }
-          },
-          {
-            "id": "5a267b344cf2ef5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "exercises/03-methods/methods.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "methods"
+              "title": "guessing-game"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,10 +183,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "344f611b1de9fbc6",
+  "active": "22b0207bfb38ffc3",
   "lastOpenFiles": [
-    "exercises/02-branches-and-loops/branches-and-loops.md",
     "exercises/03-methods/methods.md",
+    "exercises/guessing-game.md",
+    "exercises/03-methods/methods-Guse’s Mac mini.md",
+    "exercises/01-working-with-numbers/working-with-numbers.md",
+    "exercises/04 - projects.md",
+    "Untitled",
+    "exercises/02-branches-and-loops/branches-and-loops.md",
     "exercises/02-branches-and-loops",
     "exercises/03-functions/functions-Guse’s Mac mini-5.md",
     "exercises/03-functions/functions-Guse’s Mac mini-4.md",
@@ -209,7 +199,6 @@
     "exercises/02-functions/functions-Guse’s Mac mini-2.md",
     "exercises/02-functions/functions-Guse’s Mac mini.md",
     "README.md",
-    "exercises/01-working-with-numbers/working-with-numbers.md",
     "exercises/03-methods",
     "exercises/01-working-with-numbers",
     "exercises"
