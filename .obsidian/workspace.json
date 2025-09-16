@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercises/guessing-game.md",
+                "file": "exercises/04-projects/guessing-game.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercises/guessing-game.md",
+                "file": "exercises/04-projects/guessing-game.md",
                 "mode": "source",
                 "source": false
               },
@@ -183,14 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22b0207bfb38ffc3",
+  "active": "344f611b1de9fbc6",
   "lastOpenFiles": [
+    "exercises/04-projects",
+    "exercises/04 - projects.md",
+    "exercises/04-projects/guessing-game.md",
     "exercises/03-methods/methods.md",
-    "exercises/guessing-game.md",
     "exercises/03-methods/methods-Guse’s Mac mini.md",
     "exercises/01-working-with-numbers/working-with-numbers.md",
-    "exercises/04 - projects.md",
-    "Untitled",
     "exercises/02-branches-and-loops/branches-and-loops.md",
     "exercises/02-branches-and-loops",
     "exercises/03-functions/functions-Guse’s Mac mini-5.md",
