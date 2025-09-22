@@ -3,7 +3,7 @@
 
 ## Exercises
 
-## 04-0: Student Average
+## 05-0: Student Average
 
 In **IntelliJ IDEA**, create a **New Project** called **StudentAverageArray**.
 
@@ -39,7 +39,7 @@ The scores are: [90, 85, 95, 75, 80]
 The average is 18.00
 ```
 
-## 04-1: Reverse Output
+## 05-1: Reverse Output
 
 In **IntelliJ IDEA**, create a **New Project** called **ReverseOutputArray**.
 
@@ -65,7 +65,7 @@ public class ReverseOutputArray {
 5 4 3 2 1
 ```
 
-## 04-2: Copying Elements Array-to-Array in Reverse Order
+## 05-2: Copying Elements Array-to-Array in Reverse Order
 
 In **IntelliJ IDEA**, create a **New Project** called **CopyArrayReverseOrder**.
 
@@ -98,7 +98,7 @@ Original Array: [1, 2, 3, 4, 5]
 Reversed Array: [5, 4, 3, 2, 1]
 ```
 
-## 04-03: Maximum and Minimum Elements in an Array
+## 05-03: Maximum and Minimum Elements in an Array
 
 In **IntelliJ IDEA**, create a **New Project** called **MaxMinArrayElements**.
 
