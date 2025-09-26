@@ -80,7 +80,7 @@ public class SumArrayMethod {
 }
 ```
 
-# 05-3: Tic-Tac-Toe Exercises
+## 05-3: Tic-Tac-Toe Exercises
 
 These exercises demonstrate how you might use a single-dimensional array in Java to store information in a grid-based game like Tic-Tac-Toe . In this case a 9 element array is used to store the 9 possible positions of the tic-tac-toe game. The index values of the array  match the grid positions given in the table below.
 
