@@ -1,7 +1,5 @@
 # Arrays and Methods
 
-In Visual Studio Code, create a folder called **Arrays-Functions** and then open it. Now open a new Terminal window. 
-
 ## Exercises
 
 ## 05-0: Student Average
