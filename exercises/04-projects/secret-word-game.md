@@ -38,14 +38,14 @@ public class SecretWordGame {
 		
         // Choose an example of a user guess        
 	    // Replace the next line with a user input line using the Scanner class        
-	    char user_guess = 'e';  
+	    char userGuess = 'e';  
   
         // Compare the user guess to each character in the random word. 
         // If there is a match, replace the corresponding underscore character
         // in the underscore array with the guessed letter.        
         for (int i = 0; i < numberOfChars; i++) {  
-            if (secretWord.charAt(i) == user_guess) {  
-                guess[i] = user_guess;  
+            if (secretWord.charAt(i) == userGuess) {  
+                guess[i] = userGuess;  
             }  
         }  
   
