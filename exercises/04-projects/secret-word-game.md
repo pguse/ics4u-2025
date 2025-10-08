@@ -61,7 +61,7 @@ System.out.println( Arrays.toString(guess) );
 ```
 so that it outputs a the current version of the word *(underscores and known characters)* without the brackets and commas
 
-![[https://github.com/pguse/ics4u-2025/blob/main/exercises/04-projects/images/step1.png]]
+![[https://github.com/pguse/ics4u-2025/blob/main/images/step1.png]]
 ## STEP #2
 
 Allow the user to input their letter guess using the **Scanner** class.  Refer back to the guessing game if you don't remember how to do this. You will next to use the **nextLine()** method, which returns a **String** instead of the **nextInt()** method that you used in the guessing game. You will need to convert the input from a **String** to a **char** data type in order to make comparisons with each letter in the word.
