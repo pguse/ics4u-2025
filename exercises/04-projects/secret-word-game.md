@@ -37,7 +37,7 @@ public class SecretWordGame {
 		System.out.println( Arrays.toString(guess) );
 		
         // Choose an example of a user guess        
-	    // Replace line 24 with a user input line using the Scanner class        
+	    // Replace the next line with a user input line using the Scanner class        
 	    char user_guess = 'e';  
   
         // Compare the user guess to each character in the random word. 
