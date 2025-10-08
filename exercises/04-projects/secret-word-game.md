@@ -71,7 +71,7 @@ Create a **game loop** so that the user can make repeated guesses.  The current 
 
 ## STEP #4
 
-Use a **score** to keep track of** **how many incorrect letters** were guessed.  The user should **lose 10 points** for guessing an **incorrect letter**. The user should not lose points for guessing a correct letter. The **updated score** should be displayed at each stage of the game.
+Use a **score** to keep track of **how many incorrect letters** were guessed.  The user should **lose 10 points** for guessing an **incorrect letter**. The user should not lose points for guessing a correct letter. The **updated score** should be displayed at each stage of the game.
 
 ## STEP #5
 
