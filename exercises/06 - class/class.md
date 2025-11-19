@@ -1,9 +1,9 @@
 
 # Using Classes in Rust
 
-In **IntelliJ IDEA**, create a **New Project** called myMath.
+In **IntelliJ IDEA**, create a **New Project** called MyMath.
 
-In the **src** folder create a **Java class** file called *myMath.java* with the following source code.
+In the **src** folder create a **Java class** file called *MyMath.java* with the following source code.
 
 ## Exercises
 
