@@ -37,7 +37,7 @@ Complete the following method, that returns the **quotient** of an **instance** 
 
 ```java
 public Fraction div(self, Fraction f) {
-	Fraction(1,1)
+	new Fraction(1,1)
 }
 ```
 
@@ -47,7 +47,7 @@ Complete the following method, that returns the **sum** of an **instance** of **
 
 ```java
 public Fraction add(self, Fraction f) -> Fraction {
-	Fraction(1,1)
+	new Fraction(1,1)
 }
 ```
 
@@ -57,6 +57,6 @@ Complete the following method, that returns the **difference** of an **instance*
 
 ```java
 public Fraction subt(self, Fraction f) {
-	Fraction(1,1)
+	new Fraction(1,1)
 }
 ```
