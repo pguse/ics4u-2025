@@ -1,5 +1,5 @@
 
-# Using Classes in Rust
+# Using Classes in Java
 
 In **IntelliJ IDEA**, create a **New Project** called MyMath.
 
