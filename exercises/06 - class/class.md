@@ -1,13 +1,13 @@
 
 # Using Classes in Rust
 
-In **IntelliJ IDEA**, create a **New Project** called **Point**.
+In **IntelliJ IDEA**, create a **New Project** called myMath.
 
-In the **src** folder create a **Java class** file called *Point.java* with the following source code.
+In the **src** folder create a **Java class** file called *myMath.java* with the following source code.
 
 ## Exercises
 
-Complete the following exercises by creating methods in the Point class.
+Complete the following exercises by creating methods in a **Point** class.
 
 ## 06-0:  Distance
 
@@ -29,9 +29,7 @@ public double slope(Point p1, Point p2) {
 }
 ```
 
-In **IntelliJ IDEA**, create a **New Project** called **Fraction**.
-
-In the **src** folder create a **Java class** file called *Fraction.java* with the following source code.
+Complete the following exercises by creating methods in a **Fraction** class.
 
 ## 06-2:  Divide
 
@@ -43,7 +41,7 @@ public Fraction div(self, Fraction f) {
 }
 ```
 
-# 06-3:  Add
+## 06-3:  Add
 
 Complete the following method, that returns the **sum** of an **instance** of **Fraction** and another **Fraction** f.
 
@@ -53,7 +51,7 @@ public Fraction add(self, Fraction f) -> Fraction {
 }
 ```
 
-## 09-4:  Subtract
+## 06-4:  Subtract
 
 Complete the following method, that returns the **difference** of an **instance** of **Fraction** and another **Fraction** f.
 
