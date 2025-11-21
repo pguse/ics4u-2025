@@ -1,13 +1,13 @@
 
 # Using Classes in Java
 
-In **IntelliJ IDEA**, create a **New Project** called MyMath.
+In **IntelliJ IDEA**, create a **New Project** called Cartesian.
 
-In the **src** folder create a **Java class** file called *MyMath.java* with the following source code.
+In the **src** folder create a **Java class** file called *Cartesian.java* with the following source code.
 
 ## Exercises
 
-Complete the following exercises by creating methods in a **Point** class.
+Complete the following exercises by creating methods in a **Point** class contained in a Java class file called *Point.java*.
 
 ## 06-0:  Distance
 
@@ -29,7 +29,10 @@ public double slope(Point p1, Point p2) {
 }
 ```
 
-Complete the following exercises by creating methods in a **Fraction** class.
+In **IntelliJ IDEA**, create a **New Project** called MyMath.
+
+In the **src** folder create a **Java class** file called *MyMath.java* with the following source code.
+Complete the following exercises by creating methods in a **Fraction** class contained in a Java class file called *Fraction.java*.
 
 ## 06-2:  Divide
 
