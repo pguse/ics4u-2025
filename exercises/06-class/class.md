@@ -15,7 +15,7 @@ Complete the following function, that returns the **distance between two points*
 
 ```java
 public double distance(Point p) {
-	0.0
+	return 0.0;
 }
 ```
 
@@ -25,7 +25,7 @@ Complete the following function, that returns the **slope of a line passing thro
 
 ```java
 public double slope(Point p) {
-	0.0
+	return 0.0;
 }
 ```
 
