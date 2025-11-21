@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercises/06 - class/class.md",
+                "file": "exercises/06-class/class.md",
                 "mode": "source",
                 "source": false
               },
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,15 +169,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4e1b219f43f5ad7f",
+  "active": "344f611b1de9fbc6",
   "lastOpenFiles": [
     "exercises/05-arrays/arrays.md",
-    "exercises/06 - class/class.md",
+    "exercises/06-class/class.md",
     "exercises/04-projects/guessing-game.md",
     "exercises/04-projects/secret-word-game.md",
     "exercises/05-arrays/arrays-methods.md",
     "README.md",
-    "exercises/06 - class",
+    "exercises/06-class",
     "images/desktop.ini",
     "images/step1.png",
     "images",
