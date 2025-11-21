@@ -1,5 +1,5 @@
 
-# Using Classes in Java
+# Designing Classes in Java - Introduction
 
 In **IntelliJ IDEA**, create a **New Project** called Cartesian.
 
