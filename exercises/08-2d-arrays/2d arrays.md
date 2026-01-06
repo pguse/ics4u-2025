@@ -12,8 +12,9 @@ Create a function called **printMatrix(int[] m)** that outputs a 2-dimensional a
 
 ```java
 public static void printMatrix(int[][] m) {
-	// use a for loop along with Arrays.toString()
-	// to output each row on a new line
+	// use a nested for loop along with System.print() 
+	// to output each row and then use System.println() to
+	// put each row on a new line
 }
 ```
 ## 08-1:  Random Matrix
