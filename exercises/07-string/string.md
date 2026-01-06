@@ -1,6 +1,6 @@
 # Using Strings in Java
 
-In **IntelliJ IDEA**, create a **New Project** called StringExercises.
+In **IntelliJ IDEA**, create a **New Project** called **StringExercises**.
 
 In the **src** folder create a **Java class** file called *StringExercises.java* with the following source code.
 
