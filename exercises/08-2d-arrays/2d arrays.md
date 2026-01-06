@@ -11,7 +11,7 @@ In the **src** folder create a **Java class** file called *TwoDimArrays.java* wi
 Create a function called **printMatrix(int[] m)** that outputs a 2-dimensional array **m** in a grid format.
 
 ```java
-public static void printMatrix(int[] m) {
+public static void printMatrix(int[][] m) {
 	// use a for loop along with Arrays.toString()
 	// to output each row on a new line
 }
