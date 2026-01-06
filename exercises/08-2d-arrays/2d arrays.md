@@ -8,10 +8,10 @@ In the **src** folder create a **Java class** file called *TwoDimArrays.java* wi
 
 ## 08-0:  Print Matrix
 
-Create a function called **printMatrix()** that outputs a 2-dimensional array in a grid format.
+Create a function called **printMatrix(int[] m)** that outputs a 2-dimensional array **m** in a grid format.
 
 ```java
-public static void printMatrix() {
+public static void printMatrix(int[] m) {
 	// use a for loop along with Arrays.toString()
 	// to output each row on a new line
 }
