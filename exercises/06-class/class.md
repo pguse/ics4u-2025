@@ -1,6 +1,6 @@
 # Designing Classes in Java
 
-In **IntelliJ IDEA**, create a **New Project** called **Robot Simulator**.
+In **IntelliJ IDEA**, create a **New Project** called **RobotSimulator**.
 
 In the **src** folder create two **Java class** files called *RobotSimulator.java* and *Robot.java* with the following source code.
 
