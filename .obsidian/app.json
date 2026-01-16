@@ -1,4 +1,5 @@
 {
   "tabSize": 3,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "alwaysUpdateLinks": true
 }
