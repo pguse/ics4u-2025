@@ -118,7 +118,7 @@ robot.followInstructions("LAAARALA");
 
 The program should run something like this:
 
-![[https://github.com/pguse/ics4u-2025/blob/main/images/output.png]]
+![](output.png)
 
 ## 06-10:  toString() method
 
