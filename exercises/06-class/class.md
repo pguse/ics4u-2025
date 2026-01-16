@@ -118,7 +118,7 @@ robot.followInstructions("LAAARALA");
 
 The program should run something like this:
 
-![[output.png]]
+![[images/output.png]]
 
 ## 06-10:  toString() method
 
