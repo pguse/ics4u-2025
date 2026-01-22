@@ -136,7 +136,7 @@ Position: (0, -1)  Direction: SOUTH
 
 ## 06-11:  Using Enums
 
-Create a new Java class file called *Direction.java* with the following code:
+Create a new **Java class file** called *Direction.java* with the following code:
 
 ```java
 public enum Direction { NORTH, EAST, SOUTH, WEST};
@@ -170,7 +170,7 @@ public void turnLeft(){
 }
 ```
 
-You will also need to change how a Robot is created in the **main()** method.  For example,
+You will also need to change how a **Robot** is created in the **main()** method.  For example,
 
 ```java
 Robot robot = new Robot(0, 0, Direction.NORTH);
