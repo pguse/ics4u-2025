@@ -134,3 +134,44 @@ should output something like this:
 Position: (0, -1)  Direction: SOUTH
 ```
 
+## 06-11:  Using Enums
+
+Create a new Java class file called *Direction.java* with the following code:
+
+```java
+public enum Direction { NORTH, EAST, SOUTH, WEST};
+```
+
+and use the new data type to describe the direction of the Robot.
+
+```java
+public Robot(int x, int y, Direction direction) {  
+    this.x = x;  
+    this.y = y;  
+    this.direction = direction;  
+}
+```
+
+You will now need to modify the following functions to use the new type:  **getDirection()**, **turnLeft()**, **turnRight()**, and **advance()**.  For example,
+
+```java
+public Direction getDirection() {  
+    return direction;  
+}  
+
+// Mutators  
+public void turnLeft(){  
+    switch (direction) {  
+        case NORTH: direction = Direction.WEST; break;  
+        case EAST: direction = Direction.NORTH; break;  
+        case SOUTH: direction = Direction.EAST; break;  
+        case WEST: direction = Direction.SOUTH; break;  
+    }  
+}
+```
+
+You will also need to change how a Robot is created in the **main()** method.  For example,
+
+```java
+Robot robot = new Robot(0, 0, Direction.NORTH);
+```
