@@ -14,17 +14,7 @@ In the **src** folder create a **Java class** files called *TrafficLights.java* 
    - Create an `enum` named `TrafficLight` with three variants: `Red`, `Yellow`, and `Green`.
    - Implement a method `duration()` that returns the duration each light stays on (e.g., `Red` for 30 seconds, `Yellow` for 5 seconds, and `Green` for 60 seconds).
 
-## 14-1:  Shape Calculation
-
-In **IntelliJ IDEA**, create a **New Project** called **Shapes**.
-
-In the **src** folder create a **Java class** files called *Shapes.java* with the following source code.
-
-   - Define an `enum` `Shape` with variants: `Circle`, `Square`, and `Rectangle`.
-   - Each variant should **hold data** relevant to that shape (e.g., radius for `Circle`, side length for `Square`, and width and height for `Rectangle`).
-   - Implement methods to calculate the area for each shape.
-
-## 14-2:  Card Deck Management
+## 14-1:  Card Deck Modelling
 
 In **IntelliJ IDEA**, create a **New Project** called **CardDeck**.
 
