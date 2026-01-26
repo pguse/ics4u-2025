@@ -21,7 +21,7 @@ In **IntelliJ IDEA**, create a **New Project** called **Finance**.
 In the **src** folder create a **Java class** files called *Finance.java* with the following source code.
 
    - Create an `enum` named `Currency` with four variants: `USD`, `EUR`, `GBP`, and `CAD`.
-   - Implement the methods `convertFromUsd()`, that converts an amount in US dollars to the specific instance  and `convertFromUsd`, that converts an amount in the specific instance to US dollars.
+   - Implement the methods `convertFromUsd()`, that converts an amount in US dollars to the specific instance  and `convertToUsd()`, that converts an amount in the specific instance to US dollars.
    - In the **main()** method, iterate *(using a for loop)* over all the values (`USD, EUR, GBP, CAD`) and output the equivalent amounts in US dollars.
 
 ```java
