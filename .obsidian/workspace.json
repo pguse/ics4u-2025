@@ -200,8 +200,12 @@
   },
   "active": "9c7559e00d4cb35e",
   "lastOpenFiles": [
-    "exercises/06-class/class.md",
+    "notes/desktop.ini",
+    "notes/13-enums/enums.md",
     "exercises/09-enums/enums.md",
+    "notes/13-enums",
+    "notes",
+    "exercises/06-class/class.md",
     "exercises/09-enums",
     "exercises/06-class/class-intro.md",
     "exercises/06-class/output.png",
@@ -232,8 +236,6 @@
     "exercises/03-functions/functions-Guse’s Mac mini-3.md",
     "exercises/02-functions/functions-Guse’s Mac mini-2.md",
     "exercises/02-functions/functions-Guse’s Mac mini.md",
-    "exercises/03-methods",
-    "exercises/01-working-with-numbers",
-    "exercises"
+    "exercises/03-methods"
   ]
 }
