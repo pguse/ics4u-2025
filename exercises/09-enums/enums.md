@@ -32,8 +32,8 @@ public class Finance {
         GBP("British Pound", 0.73),
         CAD("Canadian Dollar", 1.37);
 
-        private final String displayName;
-        private final double rateToBase;
+        private String displayName;
+        private double rateToBase;
 
         // Constructor
         Currency(String displayName, double rateToBase) {
