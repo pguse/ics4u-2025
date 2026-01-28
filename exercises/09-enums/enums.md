@@ -15,6 +15,11 @@ In the **src** folder create a **Java class** files called *TrafficLights.java* 
    - Implement a method `duration()` that returns the duration each light stays on (e.g., `Red` for 30 seconds, `Yellow` for 5 seconds, and `Green` for 60 seconds).
    - In the **main()** method, create a variable of type `TrafficLight`, and output the duration using the `duration()` method.
 
+### Example Output
+
+```
+Duration of RED: 30 seconds
+```
 ## 14-1:  Finance
 
 In **IntelliJ IDEA**, create a **New Project** called **Finance**.
@@ -22,7 +27,7 @@ In **IntelliJ IDEA**, create a **New Project** called **Finance**.
 In the **src** folder create a **Java class** files called *Finance.java* with the following source code.
 
    - Create an `enum` named `Currency` with four variants: `USD`, `EUR`, `GBP`, and `CAD`.
-   - Implement the methods `convertFromUsd()`, that converts an amount in US dollars to the specific instance  and `convertToUsd()`, that converts an amount in the specific instance to US dollars.
+   - Implement the methods `convertFrom()`, to convert an amount from, CAD, for example, to this currency  and `convertTo()`, to convert an amount from this currency back to CAD, for example
    - In the **main()** method, iterate *(using a for loop)* over all the values (`USD, EUR, GBP, CAD`) and output the equivalent amounts in US dollars.
    - In the **main()** method, pick a currency other than CAD.  Output the equivalent amount in that currency of 100 CAD dollars
 
@@ -74,7 +79,7 @@ public class Finance {
 }
 ```
 
-**Example Output:**
+### Example Output:
 
 ```
 $100.00 USD is equivalent to 100.00 USD (US Dollar)
@@ -93,4 +98,30 @@ In the **src** folder create a **Java class** files called *CardDeck.java* with 
    - Create an `enum` `Suit` for the four suits in a deck of cards: `Hearts`, `Diamonds`, `Clubs`, and `Spades`.
    - Create another `enum` `Rank` for the ranks in a deck (e.g., `Two`, `Three`, `Four`, up to `Ace`).
    - Define a `class` `Card` that uses these enums to represent a playing card.
-   - **Write a function** to create a full deck of cards (52 cards) and **another function** to deal a card from this deck.
+   - Write **method** `newDeck()` to create a full deck of cards (52 cards) and **another method** `dealCard()` to deal a card from this deck.
+
+### Starter Code
+
+Here is how the `Card` class may be constructed
+
+```java
+public class Card {  
+    public enum Suit {CLUBS, DIAMONDS, HEARTS, SPADES};  
+    public enum Rank {ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN,  
+                      EIGHT, NINE, TEN, JACK, QUEEN, KING};  
+  
+    private Rank rank;  
+    private Suit suit;  
+  
+    public Card(Rank rank, Suit suit) {  
+        this.rank = rank;  
+        this.suit = suit;  
+    }  
+  
+    public String toString() {  
+        return rank + " of " + suit;  
+    }  
+}
+```
+
+You should create this class in a **separate file** called `Card.java`.
