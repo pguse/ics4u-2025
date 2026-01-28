@@ -23,6 +23,7 @@ In the **src** folder create a **Java class** files called *Finance.java* with t
    - Create an `enum` named `Currency` with four variants: `USD`, `EUR`, `GBP`, and `CAD`.
    - Implement the methods `convertFromUsd()`, that converts an amount in US dollars to the specific instance  and `convertToUsd()`, that converts an amount in the specific instance to US dollars.
    - In the **main()** method, iterate *(using a for loop)* over all the values (`USD, EUR, GBP, CAD`) and output the equivalent amounts in US dollars.
+   - In the **main()** method, pick a currency other than CAD.  Output the equivalent amount in that currency of 100 CAD dollars
 
 ```java
 public class Finance {
@@ -58,10 +59,14 @@ public class Finance {
     }
 
     public static void main(String[] args) {
-        double dollars = 100.0;
+        double amountInUSD = 100.0;
+        double amountInCAD = 100.0;
         
 	    // Iterate (using a for loop) over all the values and output
 	    // the equivalent amount of 100 US dollars in each currency.
+	    
+	    // Pick a currency other than CAD.  Output the equivalent amount in
+	    // that currency of 100 CAD dollars
     }
 }
 ```
@@ -73,6 +78,8 @@ $100.00 USD is equivalent to 100.00 USD (US Dollar)
 $100.00 USD is equivalent to 84.00 EUR (Euro)
 $100.00 USD is equivalent to 73.00 GBP (British Pound)
 $100.00 USD is equivalent to 137.00 CAD (Canadian Dollar)
+
+$100.00 CAD is equivalent to 72.99 USD (US Dollar)
 ```
 ## 14-2:  Card Deck Modelling
 
