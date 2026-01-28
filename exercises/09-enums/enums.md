@@ -13,6 +13,7 @@ In the **src** folder create a **Java class** files called *TrafficLights.java* 
 
    - Create an `enum` named `TrafficLight` with three variants: `Red`, `Yellow`, and `Green`.
    - Implement a method `duration()` that returns the duration each light stays on (e.g., `Red` for 30 seconds, `Yellow` for 5 seconds, and `Green` for 60 seconds).
+   - In the **main()** method, create a variable of type `TrafficLight`, and output the duration using the `duration()` method.
 
 ## 14-1:  Finance
 
