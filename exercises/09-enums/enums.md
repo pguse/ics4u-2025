@@ -47,13 +47,15 @@ public class Finance {
             return displayName;
         }
 
-        // Method to convert an amount from USD to this currency
-        public double convertFromUsd(double amountInUsd) {
+        // Method to convert an amount from, CAD, for example, to 
+        // this currency
+        public double convertFrom(double amount) {
             return 0.0;
         }
 
-        // Method to convert an amount from this currency back to USD
-        public double convertToUsd(double amount) {
+        // Method to convert an amount from this currency back to CAD,
+        // for example
+        public double convertTo(double amount) {
             return 0.0;
         }
     }
