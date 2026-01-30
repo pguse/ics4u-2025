@@ -27,9 +27,9 @@ In **IntelliJ IDEA**, create a **New Project** called **Finance**.
 In the **src** folder create a **Java class** files called *Finance.java* with the following source code.
 
    - Create an `enum` named `Currency` with four variants: `USD`, `EUR`, `GBP`, and `CAD`.
-   - Implement the methods `convertFrom()`, to convert an amount from, CAD, for example, to this currency  and `convertTo()`, to convert an amount from this currency back to CAD, for example
-   - In the **main()** method, iterate *(using a for loop)* over all the values (`USD, EUR, GBP, CAD`) and output the equivalent amounts in US dollars.
-   - In the **main()** method, pick a currency other than CAD.  Output the equivalent amount in that currency of 100 CAD dollars
+   - Implement the methods `convertFrom()`, to convert an amount from, USD, for example, to this currency  and `convertTo()`, to convert an amount from this currency back to USD, for example
+   - In the **main()** method, iterate *(using a for loop)* over all the values (`USD, EUR, GBP, CAD`) and output the equivalent amount of each currency to 100 US dollars.
+   - In the **main()** method, pick a currency other than USD.  Output the equivalent amount in that currency of 100 USD dollars
 
 ```java
 public class Finance {
@@ -53,13 +53,13 @@ public class Finance {
             return displayName;
         }
 
-        // Method to convert an amount from, CAD, for example, to 
+        // Method to convert an amount from, USD, for example, to 
         // this currency
         public double convertFrom(double amount) {
             return 0.0;
         }
 
-        // Method to convert an amount from this currency back to CAD,
+        // Method to convert an amount from this currency back to USD,
         // for example
         public double convertTo(double amount) {
             return 0.0;
@@ -73,8 +73,8 @@ public class Finance {
 	    // Iterate (using a for loop) over all the values and output
 	    // the equivalent amount of 100 US dollars in each currency.
 	    
-	    // Pick a currency other than CAD.  Output the equivalent amount in
-	    // that currency of 100 CAD dollars
+		 // Pick a currency other than USD -  for example CAD.  Output the
+		 // equivalent amount of 100 CAD to USD dollars
     }
 }
 ```
