@@ -89,7 +89,7 @@ $100.00 USD is equivalent to 137.00 CAD (Canadian Dollar)
 
 $100.00 CAD is equivalent to 72.99 USD (US Dollar)
 ```
-## 14-2:  Card Deck Modelling
+## 14-2:  Card Deck Modelling - Part 1
 
 In **IntelliJ IDEA**, create a **New Project** called **CardDeck**.
 
@@ -99,6 +99,7 @@ In the **src** folder create a **Java class** files called *CardDeck.java* with 
    - Create another `enum` `Rank` for the ranks in a deck (e.g., `Two`, `Three`, `Four`, up to `Ace`).
    - Define a `class` `Card` that uses these enums to represent a playing card.
    - Write **method** `newDeck()` to create a full deck of cards (52 cards) and **another method** `dealCard()` to deal a card from this deck.
+   - In the `main()` method use the `newDeck()` method to create a deck of cards the `deal()` method to deal a card from the deck.
 
 ### Starter Code
 
@@ -125,3 +126,42 @@ public class Card {
 ```
 
 You should create this class in a **separate file** called `Card.java`.
+
+## 14-3:  Card Deck Modelling - Part 2
+
+In this exercise we are going to modify your already created project called **CardDeck**.
+
+In the **src** folder create a **Java class** files called *Deck.java* with the following source code.
+
+```java
+public class Deck {  
+      
+    private Card[] cards;  
+    private int currentPosition;  
+  
+    public Deck() {  
+        cards = new Card[52];  
+        int index = 0;  
+        for (Card.Suit suit : Card.Suit.values()) {  
+            for (Card.Rank rank : Card.Rank.values()) {  
+                cards[index] = new Card(rank, suit);  
+                index++;  
+            }  
+        }  
+        currentPosition = 0;  
+    }  
+  
+    public Card[] dealCards(int numCards) {  
+        return new Card[numCards];  
+    }  
+  
+    public void shuffle(){  
+	    // what algorithm could we use to shuffle the deck?
+    }  
+}
+```
+
+   - You can now remove the `newDeck()` from the `CardDeck.java` file since it has now been replaced by the constructor `Deck()` in the Deck class.
+   - Complete the `dealCards()` method in the Deck class so that it deals a given number of cards from the deck.  You can now remove the `deal()` method from the `CardDeck.java` file since it has now been replaced by `dealCards()`
+   - In the `main()` method, create a new deck and deal a given number of cards from it. Display the dealt cards in the terminal
+   - Complete the `shuffle()` method in the Deck class so that it shuffles a given deck.  What algorithm could we use to shuffle the deck?
