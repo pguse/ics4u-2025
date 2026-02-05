@@ -1,5 +1,5 @@
 
-# Designing Classes in Java - Poker
+# Designing Classes in Java - Poker Project
 
 In **IntelliJ IDEA**, create a **New Project** called **Poker**.
 
