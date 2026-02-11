@@ -169,15 +169,67 @@ public class Hand {
 
 Complete and test the following methods in the Hand class
 
+### Flush
 ```java
 public boolean isFlush(){  
     return false;  
 }  
-  
+```
+
+## Note
+
+In order to complete the next two methods, it will be very important that you are working with a sorted hand.  To do this, we should add a `sort()` method to the `Hand` class.  Here is a suggested implementation that uses the **selection sort** algorithm.  Although this algorithm is not very efficient (`O(n^2)`), we are dealing with only 5 cards, so it will be sufficiently fast for our use case
+
+```java
+public class Hand {
+	// attributes, constructors, and other methods are here
+	
+	public void sort(){  
+	    // Using selection sort since we are only dealing 5 cards  
+	    int minIndex;  
+	    for(int pos = 0; pos < cards.length - 1; pos++){  
+	        minIndex = pos;  
+	        for(int i = pos; i < cards.length; i++){  
+	            if (cards[i].getRank().compareTo(cards[minIndex].getRank()) < 0) {  
+	                minIndex = i;  
+	            }  
+	        }  
+	        // swap cards so the minimum rank is at pos  
+	        Card temp = cards[pos];  
+	        cards[pos] = cards[minIndex];  
+	        cards[minIndex] = temp;  
+	    }  
+	}
+}
+
+```
+
+In order for this to work, you must have created a `getRank()` method in your `Card` class.  For example,
+```java
+public class Hand {
+	// attributes, constructor, and other methods
+	
+	public Rank getRank() {  
+	    return rank;  
+	}
+}
+```
+
+You also need to realize that the order of the `Card.Rank` enums implies an order from **smallest to largest**.  Since we are playing poker, aces are considered high cards, so you will need to change the code in the `Card` class to look like this
+
+```java
+public enum Rank {TWO, THREE, FOUR, FIVE, SIX, SEVEN,  
+    EIGHT, NINE, TEN, JACK, QUEEN, KING, ACE};
+```
+### Straight
+```java
 public boolean isStraight(){  
     return false;  
 }  
-  
+```
+
+### Pair
+```java
 public boolean isPair(){  
     return false;  
 }
