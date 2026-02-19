@@ -10,7 +10,7 @@ In the **src** folder create **Java class** files called *Main.java*, *Card.java
 
 ```java
 // Main.java  
-import java.util.ArrayList;  
+import java.util.Scanner;  
   
 public class Main {  
     public static void main(String[] args) {  
@@ -20,17 +20,18 @@ public class Main {
         Hand player = new Hand(deck, 13);  
         Hand computer = new Hand(deck, 13);  
         Hand prizes = new Hand(deck, 13);  
-        ArrayList<Card> player_prizes = new ArrayList<>();  
-        ArrayList<Card> computer_prizes = new ArrayList<>();  
+        Hand player_prizes = new Hand();  
+        Hand computer_prizes = new Hand();  
   
         // Shuffle the prizes  
         prizes.shuffle();  
         // Shuffle the computer's cards  
-        computer.shuffle();  
-  
+        computer.shuffle();
+         
         // TODO  
         // Display the prize  
-        System.out.printf("Prize: %s", prizes.playCard(0));  
+        Card prize = prizes.playCard(0);
+        System.out.printf("Prize: %s\n", prize); 
         // Remove a card from the computer's shuffled hand  
         // Ask the player to select a card to play        
         // Output and Compare the cards        
@@ -44,7 +45,7 @@ public class Main {
 ```
 
 
-```java
+```java 
 // Card.java  
 public class Card {  
     public enum Suit {CLUBS, DIAMONDS, HEARTS, SPADES};  
@@ -98,9 +99,9 @@ public class Card {
 
 
 ```java
-// Deck.java  
+// Deck.java   
 import java.util.ArrayList;  
-
+  
 public class Deck {  
   
     private ArrayList<Card> cards;  
@@ -127,29 +128,49 @@ public class Deck {
             // Random index 0 -> 51 (inclusive)  
             int randomIndex = (int)(Math.random() * cards.size());  
             // Cards randomly moved to the end  
-            Card temp = cards.remove(i);  
+            Card temp = cards.remove(randomIndex);  
             cards.add(temp);  
         }  
     }  
 }
 ```
 
-```java
-// Hand.java  
 
+```java
+// Hand.java   
 import java.util.ArrayList;  
   
 public class Hand {  
     private ArrayList<Card> cards;  
     private Deck deck;  
   
+    public Hand(){  
+        cards = new ArrayList<>();  
+    }  
+  
     public Hand(Deck deck, int numCards) {  
         this.deck = deck;  
         cards = this.deck.dealCards(numCards);  
     }  
   
+    public void addCard(Card card){  
+        cards.add(card);  
+    }  
+  
     public Card playCard(int index){  
         return cards.remove(index);  
+    }  
+  
+    public boolean isEmpty(){  
+        return cards.isEmpty();  
+    }  
+  
+    public int score() {  
+        int total = 0;  
+        for (Card card : cards) {  
+            total = total + card.getRank().ordinal();  
+        }  
+        return total;  
     }  
   
     public void shuffle(){  
@@ -157,7 +178,7 @@ public class Hand {
             // Random index 0 -> 51 (inclusive)  
             int randomIndex = (int)(Math.random() * cards.size());  
             // Random cards are moved to the end  
-            Card temp = cards.remove(i);  
+            Card temp = cards.remove(randomIndex);  
             cards.add(temp);  
         }  
     }  
