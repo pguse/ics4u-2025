@@ -206,7 +206,7 @@ public class Hand {
 
 In order for this to work, you must have created a `getRank()` method in your `Card` class.  For example,
 ```java
-public class Hand {
+public class Card {
 	// attributes, constructor, and other methods
 	
 	public Rank getRank() {  
