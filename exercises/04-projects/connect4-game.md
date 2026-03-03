@@ -23,7 +23,7 @@ public class Main {
 
 ```java 
 // Token.java  
-// Class describing a Connect4 piece    
+/** Token class - represents a single token on the board */  
 public class Token {  
     public enum Color {RED, YELLOW, EMPTY};  
     private Color color;  
@@ -50,7 +50,7 @@ public class Token {
 ```java
 // Player.java   
 import java.util.ArrayList;  
-  
+/** Player class - represents a player*/
 public class Player {  
   
     ArrayList<Token> pieces;  
@@ -78,7 +78,7 @@ public class Player {
 
 ```java
 // Game.java   
-// Class describing a Connect4 game   
+/** Game class - represents a Connect4 game*/   
 public class Game {  
     Token[][] board;  
   
