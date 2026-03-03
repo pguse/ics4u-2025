@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercises/06-class/class - Connect4.md",
+                "file": "exercises/04-projects/connect4-game.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "class - Connect4"
+              "title": "connect4-game"
             }
           }
         ],
@@ -215,7 +215,7 @@
   "active": "68c52cf2f95045d0",
   "lastOpenFiles": [
     "exercises/06-class/class-GOPS.md",
-    "exercises/06-class/class - Connect4.md",
+    "exercises/04-projects/connect4-game.md",
     "notes/13-enums/enums.md",
     "exercises/06-class/class-intro.md",
     "exercises/06-class/class-Poker.md",
