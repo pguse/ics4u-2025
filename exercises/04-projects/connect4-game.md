@@ -2,7 +2,7 @@ Designing Classes in Java - Connect4  Project
 
 In **IntelliJ IDEA**, create a **New Project** called **Connect4**.
 
-In the **src** folder create **Java class** files called *Main.java*, *Token.java*, *Player.java*, and *Board.java* with the following source code.
+In the **src** folder create **Java class** files called *Main.java*, *Token.java*, *Player.java*, and *Game.java* with the following source code.
 
 ## Starter Code
 
@@ -10,19 +10,20 @@ In the **src** folder create **Java class** files called *Main.java*, *Token.jav
 // Main.java  
 public class Main {  
     public static void main(String[] args) {  
-        Board board = new Board();  
-        Player player1 = new Player(Token.Color.RED, board);  
-        Player player2 = new Player(Token.Color.YELLOW, board);  
-        board.display();  
+        Game game = new Game();  
+        Player player1 = new Player(Token.Color.RED, game);  
+        Player player2 = new Player(Token.Color.YELLOW, game);  
+        player1.playToken(0);  
+        player2.playToken(1);  
+        game.display();  
     }  
-}
 }
 ```
 
 
 ```java 
 // Token.java  
-// Class describing a Connect4 piece  
+// Class describing a Connect4 piece    
 public class Token {  
     public enum Color {RED, YELLOW, EMPTY};  
     private Color color;  
@@ -53,26 +54,35 @@ import java.util.ArrayList;
 public class Player {  
   
     ArrayList<Token> pieces;  
-    Board board;  
+    Game game;  
   
-    public Player(Token.Color color, Board board) {  
+    public Player(Token.Color color, Game game) {  
         pieces = new ArrayList<Token>();  
         for (int i = 0; i < 21; i++){  
             pieces.add(new Token(color));  
         }  
-        this.board = board;  
+        this.game = game;  
+    }  
+  
+    public void playToken(int col) {  
+        for (int i = 5; i >=0; i--){  
+            if (game.board[i][col].getColor() == Token.Color.EMPTY){  
+                game.board[i][col] = pieces.getFirst();  
+                break;  
+            }  
+        }  
     }  
 }
 ```
 
 
 ```java
-// Board.java   
-// Class describing a Connect4 board  
-public class Board {  
+// Game.java   
+// Class describing a Connect4 game   
+public class Game {  
     Token[][] board;  
   
-    public Board() {  
+    public Game() {  
         board = new Token[6][7];  
         for (int i = 0; i < 6; i++) {  
             for (int j = 0; j < 7; j++) {  
@@ -100,10 +110,10 @@ Given the starter code,
 1. Complete the following methods:
 
 	- playToken() in the Player class
-	- detectRowWin() in the Board class
-	- detectColWin() in the Board class
-	- detectDiagonalUpWin() in the Board class
-	- detectDiagonalDownWin() in the Board class
+	- detectRowWin() in the Game class
+	- detectColWin() in the Game class
+	- detectDiagonalUpWin() in the Game class
+	- detectDiagonalDownWin() in the Game class
 
 2. Modify the `main()` method so that the game can be played with two players, entering moves from the command line.
 
