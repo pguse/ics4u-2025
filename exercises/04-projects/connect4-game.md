@@ -1,4 +1,4 @@
-Designing Classes in Java - Game of Pure Strategy Project
+Designing Classes in Java - Connect4  Project
 
 In **IntelliJ IDEA**, create a **New Project** called **Connect4**.
 
