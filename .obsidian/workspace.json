@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercises/06-class/class-GOPS.md",
+                "file": "exercises/04-projects/class-gops.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "class-GOPS"
+              "title": "class-gops"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercises/04-projects/connect4-game.md",
+                "file": "exercises/06-class/class-intro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "connect4-game"
+              "title": "class-intro"
             }
           }
         ],
@@ -214,13 +214,13 @@
   },
   "active": "68c52cf2f95045d0",
   "lastOpenFiles": [
-    "exercises/06-class/class-GOPS.md",
+    "exercises/06-class/output.png",
+    "exercises/06-class/class-intro.md",
+    "exercises/04-projects/class-robot.md",
+    "exercises/04-projects/class-poker.md",
+    "exercises/04-projects/class-gops.md",
     "exercises/04-projects/connect4-game.md",
     "notes/13-enums/enums.md",
-    "exercises/06-class/class-intro.md",
-    "exercises/06-class/class-Poker.md",
-    "exercises/06-class/class.md",
-    "exercises/06-class/output.png",
     "exercises/09-enums/enums.md",
     "notes/desktop.ini",
     "notes/13-enums",

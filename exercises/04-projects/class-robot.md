@@ -1,4 +1,4 @@
-# Designing Classes in Java
+# Designing Classes in Java - Robot Simulator Project
 
 In **IntelliJ IDEA**, create a **New Project** called **RobotSimulator**.
 
