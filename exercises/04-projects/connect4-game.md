@@ -38,7 +38,7 @@ public class Token {
     public String toString() {  
         return switch(color) {  
             case RED -> "🔴";  
-            case YELLOW -> "🟡";  
+            case YELLOW -> "🔵";  
             case EMPTY -> "⚫";  
         };  
     }  
