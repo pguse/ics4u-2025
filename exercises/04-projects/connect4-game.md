@@ -99,7 +99,7 @@ Given the starter code,
 
 1. Complete the following methods:
 
-	- playPiece() in the Player class
+	- playToken() in the Player class
 	- detectRowWin() in the Board class
 	- detectColWin() in the Board class
 	- detectDiagonalUpWin() in the Board class
