@@ -2,7 +2,7 @@
 
 ## Exercises
 
-## 13-0:  Number of Vowels - Text Entry
+## 10-0:  Number of Vowels - Text Entry
 
 In **IntelliJ IDEA**, create a **New Project** called **NumberOfVowelsText**.
 
@@ -21,7 +21,7 @@ public static HashMap<char, int> numVowels(String s)() {
 
 This program should count the **number of vowels** *(a, e, i, o, u)* found in text entered by the user.  Use a `HashMap` collection to store the vowels as `keys` and the number of vowels as `values`. Create a function `numVowels(String s)` that uses the **String** read from the user and returns a `HashMap` with `keys` that are vowels and `values` that represent the number of vowels found.
 
-## 13-1:  Number of Vowels - Text File
+## 10-1:  Number of Vowels - Text File
 
 In **IntelliJ IDEA**, create a **New Project** called **NumberOfVowelsTextFile**.
 
@@ -41,7 +41,7 @@ public static HashMap<char, int>() numVowels(String s) {
 }
 ```
 
-## 13-2: Nucleotides
+## 10-2: Nucleotides
 
 Create a new project called `Nucleotides`.
 

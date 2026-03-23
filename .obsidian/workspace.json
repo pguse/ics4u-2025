@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exercises/10-hashmaps/hashmaps.md",
+                "file": "exercises/09-enums/enums.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hashmaps"
+              "title": "enums"
             }
           }
         ],
@@ -242,8 +242,8 @@
   },
   "active": "0f99a5e368b2e7ad",
   "lastOpenFiles": [
-    "exercises/09-enums/enums.md",
     "exercises/10-hashmaps/hashmaps.md",
+    "exercises/09-enums/enums.md",
     "exercises/10-hashmaps/emma.md",
     "exercises/06-class/class-intro.md",
     "exercises/10-hashmaps",

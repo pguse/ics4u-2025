@@ -5,7 +5,7 @@
 
 Complete the following exercises.
 
-## 14-0:  Traffic Light System
+## 09-0:  Traffic Light System
 
 In **IntelliJ IDEA**, create a **New Project** called **TrafficLights**.
 
@@ -20,7 +20,7 @@ In the **src** folder create a **Java class** files called *TrafficLights.java* 
 ```
 Duration of RED: 30 seconds
 ```
-## 14-1:  Finance
+## 09-1:  Finance
 
 In **IntelliJ IDEA**, create a **New Project** called **Finance**.
 
@@ -89,7 +89,7 @@ $100.00 USD is equivalent to 137.00 CAD (Canadian Dollar)
 
 $100.00 CAD is equivalent to 72.99 USD (US Dollar)
 ```
-## 14-2:  Card Deck Modelling - Part 1
+## 09-2:  Card Deck Modelling - Part 1
 
 In **IntelliJ IDEA**, create a **New Project** called **CardDeck**.
 
@@ -127,7 +127,7 @@ public class Card {
 
 You should create this class in a **separate file** called `Card.java`.
 
-## 14-3:  Card Deck Modelling - Part 2
+## 09-3:  Card Deck Modelling - Part 2
 
 In this exercise we are going to modify your already created project called **CardDeck**.
 
