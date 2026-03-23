@@ -9,13 +9,18 @@ In **IntelliJ IDEA**, create a **New Project** called **NumberOfVowelsText**.
 In the **src** folder create a **Java class** files called *NumberOfVowelsText.java* with the following source code.
 
 ```java
-public static void main(String[] args){
-	// add code here that includes user input
-}
-
-public static HashMap<char, int> numVowels(String s)() {
-	// add code here that creates a HashMap
-	// and returns it
+import java.util.HashMap;  
+  
+public class Main {  
+    public static void main(String[] args) {  
+        System.out.println("Counting vowels in a string:");  
+    }  
+  
+    public static HashMap<Character, Integer> numVowels(String s) {  
+        HashMap<Character, Integer> vowels = new HashMap<Character, Integer>();  
+        // add code here  
+        return vowels;  
+    }  
 }
 ```
 
