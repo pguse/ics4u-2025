@@ -42,7 +42,7 @@ public static void main(String[] args){
    System.out.printf("%d", numNucleotides(nucleo));
 }
 
-public static HashMap<char,int>() numNucleotides(s: &str) {
+public static HashMap<Character,Integer>() numNucleotides(String s) {
 	// add code here that creates a HashMap
 	// and returns it
 }
@@ -64,7 +64,7 @@ public static void main(String[] args){
 	// called emma.md, found in the src folder
 }
 
-public static HashMap<char, int>() numVowels(String s) {
+public static HashMap<Character, Integer>() numVowels(String s) {
 	// add code here that creates a HashMap
 	// and returns it
 }
@@ -84,7 +84,7 @@ public static void main(String[] args){
 	// called emma.md, found in the src folder
 }
 
-public static HashMap<String, int>() numVowels(String s, String[] words) {
+public static HashMap<String, Integer>() numVowels(String s, String[] words) {
 	// add code here that creates a HashMap
 	// and returns it
 }
