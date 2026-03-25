@@ -158,9 +158,12 @@ public static boolean isomorphic(String s1, String s2) {
 	// add code here that creates a HashMap that stores the mapping
 	// of characters from one string to another
 	// If the mapping of characters is 1-to-1, then the strings are isomorphic
+	// Note:  Assume the strings are the same length
 	return false;
 }
 ```
+
+### Note:  *Assume the two strings are the same length*
 ### Examples
 
 Here are two clear examples of isomorphic strings:
