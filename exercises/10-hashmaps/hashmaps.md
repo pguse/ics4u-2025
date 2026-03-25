@@ -105,7 +105,7 @@ public static boolean anagram(String s1, String s2) {
 	// add code here that creates a HashMap that stores the number
 	// of each character in each string
 	// If the HashMaps are the same, then the strings are anagrams
-	return false
+	return false;
 }
 ```
 
@@ -158,7 +158,7 @@ public static boolean isomorphic(String s1, String s2) {
 	// add code here that creates a HashMap that stores the mapping
 	// of characters from one string to another
 	// If the mapping of characters is 1-to-1, then the strings are isomorphic
-	return false
+	return false;
 }
 ```
 ### Examples
