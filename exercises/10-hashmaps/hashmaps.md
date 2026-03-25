@@ -89,3 +89,126 @@ public static HashMap<String, Integer>() numVowels(String s, String[] words) {
 }
 ```
 
+## 10-4:  Anagram
+
+In **IntelliJ IDEA**, create a **New Project** called **Anagram**.
+
+In the **src** folder create a **Java class** files called *Anagram.java* with the following source code.
+
+```java
+public static void main(String[] args){
+	// add code here that includes reading input from the user
+	// that includes two input strings
+}
+
+public static boolean anagram(String s1, String s2) {
+	// add code here that creates a HashMap that stores the number
+	// of each character in each string
+	// If the HashMaps are the sam, then the strings are anagrams
+	return false
+}
+```
+
+An **anagram** is a word or phrase formed by **rearranging the letters** of another word or phrase, using all the original letters exactly once.
+
+---
+
+### Simple Examples
+
+|Original|Anagram|
+|---|---|
+|`"listen"`|`"silent"`|
+|`"earth"`|`"heart"`|
+|`"eat"`|`"tea"` or `"ate"`|
+|`"race"`|`"care"`|
+
+---
+
+### The Key Rules
+
+1. **Same letters** — every letter from the original must be used
+2. **Same frequency** — if a letter appears twice in the original, it must appear twice in the anagram
+3. **Order doesn't matter** — the letters are simply rearranged
+
+---
+
+### How It Connects to the HashMap Exercise
+
+In Exercise 3, anagrams were detected by **sorting the characters** of each word alphabetically and using that as a HashMap key:
+
+- `"eat"` → sorted → `"aet"`
+- `"tea"` → sorted → `"aet"`
+- `"ate"` → sorted → `"aet"`
+
+Since all three produce the same key `"aet"`, they get grouped together in the HashMap as a family of anagrams. This is an efficient and elegant way to detect them without comparing every word against every other word.
+
+## 10-5:  Isomorphic Strings
+
+In **IntelliJ IDEA**, create a **New Project** called **IsomorphicStrings**.
+
+In the **src** folder create a **Java class** files called *IsomorphicStrings.java* with the following source code.
+
+```java
+public static void main(String[] args){
+	// add code here that includes reading input from the user
+	// that includes two input strings
+}
+
+public static boolean isomorphic(String s1, String s2) {
+	// add code here that creates a HashMap that stores the mapping
+	// of characters from one string to another
+	// If the mapping of characters is 1-to-1, then the strings are isomorphic
+	return false
+}
+```
+### Examples
+
+Here are two clear examples of isomorphic strings:
+
+---
+
+### ✅ Example 1: `"egg"` and `"add"`
+
+These **are** isomorphic.
+
+|Index|`s` char|`t` char|Mapping|
+|---|---|---|---|
+|0|`e`|`a`|`e → a`|
+|1|`g`|`d`|`g → d`|
+|2|`g`|`d`|`g → d` ✅ (consistent)|
+
+Every `e` maps to `a`, and every `g` maps to `d` — the structure is identical.
+
+---
+
+### ✅ Example 2: `"paper"` and `"title"`
+
+These **are** isomorphic.
+
+|Index|`s` char|`t` char|Mapping|
+|---|---|---|---|
+|0|`p`|`t`|`p → t`|
+|1|`a`|`i`|`a → i`|
+|2|`p`|`t`|`p → t` ✅ (consistent)|
+|3|`e`|`l`|`e → l`|
+|4|`r`|`e`|`r → e`|
+
+Each character in `"paper"` maps consistently to exactly one character in `"title"`, and no two different characters share the same mapping.
+
+---
+
+### ❌ Counterexample: `"foo"` and `"bar"`
+
+These are **not** isomorphic.
+
+|Index|`s` char|`t` char|Mapping|
+|---|---|---|---|
+|0|`f`|`b`|`f → b`|
+|1|`o`|`a`|`o → a`|
+|2|`o`|`r`|`o → r` ❌ (conflict!)|
+
+`o` tries to map to both `a` and `r`, which breaks the 1-to-1 rule.
+
+---
+
+The key rule is: **same characters must always map to the same character**, and **no two different characters can map to the same character**.
