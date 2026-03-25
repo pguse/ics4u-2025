@@ -104,7 +104,7 @@ public static void main(String[] args){
 public static boolean anagram(String s1, String s2) {
 	// add code here that creates a HashMap that stores the number
 	// of each character in each string
-	// If the HashMaps are the sam, then the strings are anagrams
+	// If the HashMaps are the same, then the strings are anagrams
 	return false
 }
 ```
